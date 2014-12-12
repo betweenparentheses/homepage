@@ -195,6 +195,11 @@ img.grayscale {
   padding: 50px 0;
 }
 
+.youtube {
+  overflow: none;
+  width: 100%;
+}
+
 
 div.container .btn-lg:hover {
   background-color: #d46054;
@@ -203,6 +208,13 @@ div.container .btn-lg:hover {
 
 footer {
   padding: 100px 0;
+}
+
+.round-thumb {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  border: 3px solid #eee;
 }
 
 /* -- end custom css for Bootstrap 3.x --*/

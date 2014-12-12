@@ -115,7 +115,8 @@ img.grayscale {
 
 .header {
   height: 80%;
-  background: url('../images/blurred-golden-background-11289575386nW6.jpg') repeat center center fixed;
+  background: url('../images/blurred-golden-background-11289575386nW6.jpg') no-repeat center center fixed;
+  background-size: 100% 100%;
 }
 
 /* use alt in navbar and header for different color */

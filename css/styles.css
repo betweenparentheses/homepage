@@ -142,23 +142,10 @@ img.grayscale {
 
 .featurette-item {
   margin-bottom: 15px;
+  width: 100%;
 }
 
-.featurette-item > i {
-  border: 3px solid #ffffff;
-  border-radius: 50%;
-  display: inline-block;
-  font-size: 56px;
-  width: 140px;
-  height: 140px;
-  line-height: 136px;
-  vertical-align: middle; 
-  text-align: center;
-}
 
-.featurette-item > i:hover {
-  font-size: 68px;
-}
 
 /*for fancy backgrounds*/
 .callout {
@@ -196,10 +183,18 @@ footer {
   border-radius: 50%;
   width: 160px;
   height: 160px;
-  border: 3px solid #eee;
+  border: 3px solid #ddd;
   margin: 0 auto;
 }
 
-.round-thumb:hover {
-  border: 3px solid #00ffff;
+.featurette-item:hover {
+  color: #fff;
+}
+
+.featurette-item:hover h4 {
+  font-weight: bold;
+}
+
+.featurette-item:hover .round-thumb {
+  border-color: #fff;
 }

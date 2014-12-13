@@ -1,7 +1,6 @@
-/* -- custom css for Bootstrap 3.x --*/
 
 /* move special fonts to HTML head for better performance */
-@import url(http://fonts.googleapis.com/css?family=Quicksand);
+/*@import url(http://fonts.googleapis.com/css?family=Quicksand);*/
 
 html,
 body {
@@ -35,20 +34,6 @@ img.grayscale {
    background-color:#fff;
 }
 
-.scroll-down a, .scroll-top a {
-   color:#ffffff;
-}
-
-.scroll-down {
-   position:fixed;
-   bottom:20%;
-   right:0%;
-   color:#f9f9f9;
-}
-
-.scroll-top {
-  background-color:#dbdbdb;
-}
 
 .vert {
   vertical-align: middle;
@@ -129,10 +114,6 @@ img.grayscale {
   color: #3B0496;
 }
 
-.alt.affix {
-  background-color:#4C06AB;
-}
-
 .alt li a:hover, .alt li.active {
   background-color:#5D17BA;
 }
@@ -185,7 +166,7 @@ img.grayscale {
   padding-top:7%;
   height: 100%;
   width: 100%;
-  background: url('http://www.bootply.com/assets/example/bg_suburb.jpg') no-repeat center center fixed; 
+  background: url('') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -218,5 +199,3 @@ footer {
   border: 3px solid #eee;
   margin: 0 auto;
 }
-
-/* -- end custom css for Bootstrap 3.x --*/

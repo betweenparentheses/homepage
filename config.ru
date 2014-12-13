@@ -15,7 +15,7 @@ map '/' do
       'Content-Type' => 'text/html',
       'Cache-Control' => 'public, max-age=86400'
     }
-    body = File.open('#{Dir.pwd}/index.html', File::RDONLY).read
+    body = File.open("#{Dir.pwd}/index.html", File::RDONLY).read
 
     [200, headers, [body]]
 

@@ -199,3 +199,7 @@ footer {
   border: 3px solid #eee;
   margin: 0 auto;
 }
+
+.round-thumb:hover {
+  border: 3px solid #00ffff;
+}

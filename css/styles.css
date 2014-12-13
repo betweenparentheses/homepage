@@ -130,7 +130,7 @@ img.grayscale {
 }
 
 .bright {
-  background: #dbdbdb url('http://www.bootply.com/assets/example/pt_topo.png') repeat center center fixed; 
+  background: #dbdbdb url('') repeat center center fixed; 
   color:#777;
 }
 

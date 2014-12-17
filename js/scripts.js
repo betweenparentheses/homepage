@@ -55,7 +55,7 @@ $(document).ready(function(){
         'top':'-10px',
         'left':'-10px',
         'border-radius' : '500px',
-        'border' : '1px solid black';
+        'border' : '1px solid black',
         'display':'block',
         'height':'30px',
         'width':'30px',

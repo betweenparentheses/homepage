@@ -52,13 +52,15 @@ $(document).ready(function(){
       });
       $('.close-box').css({
         'position':'absolute',
-        'top':'-15px',
-        'left':'-15px',
+        'top':'-10px',
+        'left':'-10px',
+        'border-radius' : '500px',
+        'border' : '1px solid black';
         'display':'block',
         'height':'30px',
         'width':'30px',
         'background': 'url(images/close.png) no-repeat',
-        'background-color': 'inherit',
+        'background-color': '#f2f2f2',
         'background-size': '100%',
       });
                         /*Block page overlay*/

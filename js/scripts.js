@@ -52,8 +52,8 @@ $(document).ready(function(){
       });
       $('.close-box').css({
         'position':'absolute',
-        'top':'0px',
-        'left':'0px',
+        'top':'-15px',
+        'left':'15px',
         'display':'block',
         'height':'30px',
         'width':'30px',
@@ -96,9 +96,10 @@ $(document).ready(function(){
 
       $(pop_up).appendTo('.block-page');
                    
-      $('.close-box').click(function(){
+      $('.close-box').click(function(e){
         $('.block-page').fadeOut().remove();    
-        $(this).parent().fadeOut().remove();           
+        $(this).parent().fadeOut().remove();
+        e.preventDefault();
       });
     }
 

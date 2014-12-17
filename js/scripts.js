@@ -53,11 +53,12 @@ $(document).ready(function(){
       $('.close-box').css({
         'position':'absolute',
         'top':'-15px',
-        'left':'15px',
+        'left':'-15px',
         'display':'block',
         'height':'30px',
         'width':'30px',
         'background': 'url(images/close.png) no-repeat',
+        'background-color': 'inherit',
         'background-size': '100%',
       });
                         /*Block page overlay*/

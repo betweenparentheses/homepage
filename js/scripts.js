@@ -4,7 +4,7 @@ $(document).ready(function(){
   /* highlight the top nav as scrolling occurs */
   $('body').scrollspy({ target: '#navbar' })
 
-
+  // apply lightbox listener
   $('.lightboxable').lightbox();
 
 
@@ -12,10 +12,9 @@ $(document).ready(function(){
 
 
 
-
+//lightbox module
 (function($){
 
-  //define jQuery plugin for lightboxes
   $.fn.lightbox = function(property){
 
     var options = $.extend({
@@ -33,61 +32,21 @@ $(document).ready(function(){
 
     function add_styles(){     
       $('.lightbox').css({ 
-        'position':'fixed', 
         'left':options.left,
         'top':options.top,
-        'display':'none',
-        'padding': 'none',
         'height': options.height + 'px',
         'width': options.width + 'px',
-        'border':'1px solid #fff',
-        'box-shadow': '0px 2px 7px #292929',
-        '-moz-box-shadow': '0px 2px 7px #292929',
-        '-webkit-box-shadow': '0px 2px 7px #292929',
-        'border-radius':'10px',
-        '-moz-border-radius':'10px',
-        '-webkit-border-radius':'10px',
-        'background': '#f2f2f2', 
-        'z-index':'50',
       });
-      $('.close-box').css({
-        'position':'absolute',
-        'top':'-10px',
-        'left':'-10px',
-        'border-radius' : '500px',
-        'border' : '1px solid black',
-        'display':'block',
-        'height':'30px',
-        'width':'30px',
-        'background': 'url(images/close.png) no-repeat',
-        'background-color': '#f2f2f2',
-        'background-size': '100%',
-      });
+
                         /*Block page overlay*/
       var pageHeight = $(document).height();
       var pageWidth = $(window).width();
 
       $('.block-page').css({
-        'position':'absolute',
-        'top':'0',
-        'left':'0',
-        'background-color':'rgba(0,0,0,0.6)',
         'height':pageHeight,
         'width':pageWidth,
-        'z-index':'10'
       });
-      $('.inner-box').css({
-        'position' : 'relative',
-        'background-color':'#fff',
-        'height':'85%',
-        'width':'90%',
-        'padding':'10px',
-        'margin':'5% auto',
-        'border-radius':'10px',
-        '-moz-border-radius':'10px',
-        '-webkit-border-radius':'10px',
-        'text-align': 'center',
-      });
+
     }
 
     function add_popup_box(clicked){
@@ -122,6 +81,6 @@ $(document).ready(function(){
 
   };
 
-})(jQuery); //end of plugin
+})(jQuery);
 
 

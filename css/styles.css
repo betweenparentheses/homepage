@@ -199,6 +199,11 @@ footer {
   border-color: #fff;
 }
 
+
+.list-spaced li {
+  margin: 30px;
+}
+
 /*for lightbox module*/
 
 .lightbox{

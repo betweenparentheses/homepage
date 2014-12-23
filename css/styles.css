@@ -204,6 +204,10 @@ footer {
   margin: 30px;
 }
 
+.feature-list {
+  text-align: left;
+}
+
 /*for lightbox module*/
 
 .lightbox{
@@ -230,29 +234,29 @@ footer {
 }
 
 .close-box {
-        position: absolute;
-        top: -10px;
-        left: -10px;
-        border-radius :  500px;
-        display: block;
-        height: 30px;
-        width: 30px;
-        background: url("../images/close.png") no-repeat;
-        background-color:  #f2f2f2;
-        background-size:  100%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  border-radius :  500px;
+  display: block;
+  height: 30px;
+  width: 30px;
+  background: url("../images/close.png") no-repeat;
+  background-color:  #f2f2f2;
+  background-size:  100%;
 }
 
 .inner-box {
-        position : relative;
-        background-color : #fff;
-        height : 85%;
-        width : 90%;
-        padding : 10px;
-        margin : 5% auto;
-        border-radius : 10px;
-        -moz-border-radius : 10px;
-        -webkit-border-radius : 10px;
-        text-align : center;
+  position : relative;
+  background-color : #fff;
+  height : 85%;
+  width : 90%;
+  padding : 10px;
+  margin : 5% auto;
+  border-radius : 10px;
+  -moz-border-radius : 10px;
+  -webkit-border-radius : 10px;
+  text-align : center;
 }
 
 /*lightbox-only is only hidden inside a lightboxable div*/

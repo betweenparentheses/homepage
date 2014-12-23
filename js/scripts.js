@@ -50,13 +50,17 @@ $(document).ready(function(){
     }
 
     function add_popup_box(clicked){
-      var title = $(clicked).children('h4').text();
-      var description = $(clicked).children('p').text();
-
-      var pop_up = $('<div class="lightbox"><a href="#" class="close-box"></a><div class="inner-box"><h2>' + title + '</h2><p>' + description + '</p></div></div>');
+      // var title = $(clicked).children('h4').text();
+      // var description = $(clicked).children('p').text();
 
 
+
+      var pop_up = $('<div class="lightbox"><a href="#" class="close-box"></a><div class="inner-box"></div></div>');
       $(pop_up).appendTo('.block-page');
+
+      // add contents from the clicked item
+      var $clicked = $(clicked).children().clone();
+      $('.inner-box').append($clicked);
                    
       $('.close-box').click(function(e){
         $('.block-page').fadeOut().remove();    

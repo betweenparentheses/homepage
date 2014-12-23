@@ -255,4 +255,11 @@ footer {
         -webkit-border-radius : 10px;
         text-align : center;
 }
+
+/*lightbox-only is only hidden inside a lightboxable div*/
+.lightboxable .lightbox-only {
+  display: none;
+}
+
+
 /*end lightbox module*/

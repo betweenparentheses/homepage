@@ -6,6 +6,10 @@ Bundler.require(:default)
 
 require './tumblr-stuff'
 
+# prepare for Tumblr client use
+client = Tumblr::Client.new
+tumblr_posts = client.posts("geminstallmichael.tumblr.com", :type => "text", :limit => 5)
+
 
 
 #responds to #call method, returns an Array of 
@@ -20,7 +24,7 @@ map '/' do
       'Cache-Control' => 'public, max-age=86400'
     }
     body = File.open("#{Dir.pwd}/index.html", File::RDONLY).read
-    
+    body.gsub("Blog Posts", tumblr_posts.posts.first.title)
     [200, headers, [body]]
 
   }

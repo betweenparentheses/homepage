@@ -1,12 +1,33 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    faraday (0.9.0)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.9.1)
+      faraday (>= 0.7.4, < 0.10)
+    figaro (1.0.0)
+      thor (~> 0.14)
+    json (1.8.1)
+    mime-types (2.4.3)
+    multipart-post (2.0.0)
     newrelic_rpm (3.9.8.273)
+    oauth (0.4.7)
     rack (1.5.2)
+    simple_oauth (0.3.0)
+    thor (0.19.1)
+    tumblr_client (0.8.5)
+      faraday (~> 0.9.0)
+      faraday_middleware (~> 0.9.0)
+      json
+      mime-types
+      oauth
+      simple_oauth
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  figaro
   newrelic_rpm
   rack
+  tumblr_client

@@ -1,0 +1,59 @@
+# Logfile created on 2014-12-25 20:54:30 -0800 by logger.rb/44203
+[12/25/14 20:54:30 -0800 michaels-air (1051)] INFO : Starting the New Relic agent in "development" environment.
+[12/25/14 20:54:30 -0800 michaels-air (1051)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[12/25/14 20:54:30 -0800 michaels-air (1051)] INFO : Reading configuration from config/newrelic.yml (/Users/Michael/Viking/homepage)
+[12/25/14 20:54:30 -0800 michaels-air (1051)] INFO : Environment: development
+[12/25/14 20:54:30 -0800 michaels-air (1051)] INFO : No known dispatcher detected.
+[12/25/14 20:54:30 -0800 michaels-air (1051)] INFO : Application: My Application (Development)
+[12/25/14 20:54:30 -0800 michaels-air (1051)] INFO : Installing Net instrumentation
+[12/25/14 20:54:30 -0800 michaels-air (1051)] INFO : Installing deferred Rack instrumentation
+[12/25/14 20:54:30 -0800 michaels-air (1051)] INFO : Installing Rack::Builder middleware instrumentation
+[12/25/14 20:54:30 -0800 michaels-air (1051)] INFO : Finished instrumentation
+[12/25/14 20:54:31 -0800 michaels-air (1051)] INFO : Starting Agent shutdown
+[12/25/14 20:58:35 -0800 michaels-air (1122)] INFO : Starting the New Relic agent in "development" environment.
+[12/25/14 20:58:35 -0800 michaels-air (1122)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[12/25/14 20:58:35 -0800 michaels-air (1122)] INFO : Reading configuration from config/newrelic.yml (/Users/Michael/Viking/homepage)
+[12/25/14 20:58:35 -0800 michaels-air (1122)] INFO : Environment: development
+[12/25/14 20:58:35 -0800 michaels-air (1122)] INFO : No known dispatcher detected.
+[12/25/14 20:58:35 -0800 michaels-air (1122)] INFO : Application: My Application (Development)
+[12/25/14 20:58:35 -0800 michaels-air (1122)] INFO : Installing Net instrumentation
+[12/25/14 20:58:35 -0800 michaels-air (1122)] INFO : Installing deferred Rack instrumentation
+[12/25/14 20:58:35 -0800 michaels-air (1122)] INFO : Installing Rack::Builder middleware instrumentation
+[12/25/14 20:58:35 -0800 michaels-air (1122)] INFO : Finished instrumentation
+[12/25/14 20:58:35 -0800 michaels-air (1122)] INFO : Starting Agent shutdown
+[12/25/14 20:58:59 -0800 michaels-air (1136)] INFO : Starting the New Relic agent in "development" environment.
+[12/25/14 20:58:59 -0800 michaels-air (1136)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[12/25/14 20:58:59 -0800 michaels-air (1136)] INFO : Reading configuration from config/newrelic.yml (/Users/Michael/Viking/homepage)
+[12/25/14 20:58:59 -0800 michaels-air (1136)] INFO : Environment: development
+[12/25/14 20:58:59 -0800 michaels-air (1136)] INFO : No known dispatcher detected.
+[12/25/14 20:58:59 -0800 michaels-air (1136)] INFO : Application: My Application (Development)
+[12/25/14 20:58:59 -0800 michaels-air (1136)] INFO : Installing Net instrumentation
+[12/25/14 20:58:59 -0800 michaels-air (1136)] INFO : Installing deferred Rack instrumentation
+[12/25/14 20:58:59 -0800 michaels-air (1136)] INFO : Installing Rack::Builder middleware instrumentation
+[12/25/14 20:58:59 -0800 michaels-air (1136)] INFO : Finished instrumentation
+[12/25/14 20:59:00 -0800 michaels-air (1136)] INFO : Reporting to: https://rpm.newrelic.com/accounts/853116/applications/5913020
+[12/25/14 20:59:01 -0800 michaels-air (1136)] INFO : Starting Agent shutdown
+[12/25/14 20:59:50 -0800 michaels-air (1153)] INFO : Starting the New Relic agent in "development" environment.
+[12/25/14 20:59:50 -0800 michaels-air (1153)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[12/25/14 20:59:50 -0800 michaels-air (1153)] INFO : Reading configuration from config/newrelic.yml (/Users/Michael/Viking/homepage)
+[12/25/14 20:59:50 -0800 michaels-air (1153)] INFO : Environment: development
+[12/25/14 20:59:50 -0800 michaels-air (1153)] INFO : No known dispatcher detected.
+[12/25/14 20:59:50 -0800 michaels-air (1153)] INFO : Application: My Application (Development)
+[12/25/14 20:59:50 -0800 michaels-air (1153)] INFO : Installing Net instrumentation
+[12/25/14 20:59:50 -0800 michaels-air (1153)] INFO : Installing deferred Rack instrumentation
+[12/25/14 20:59:50 -0800 michaels-air (1153)] INFO : Installing Rack::Builder middleware instrumentation
+[12/25/14 20:59:50 -0800 michaels-air (1153)] INFO : Finished instrumentation
+[12/25/14 20:59:51 -0800 michaels-air (1153)] INFO : Reporting to: https://rpm.newrelic.com/accounts/853116/applications/5913020
+[12/25/14 20:59:56 -0800 michaels-air (1153)] INFO : Starting Agent shutdown
+[12/25/14 21:00:56 -0800 michaels-air (1169)] INFO : Starting the New Relic agent in "development" environment.
+[12/25/14 21:00:56 -0800 michaels-air (1169)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[12/25/14 21:00:56 -0800 michaels-air (1169)] INFO : Reading configuration from config/newrelic.yml (/Users/Michael/Viking/homepage)
+[12/25/14 21:00:56 -0800 michaels-air (1169)] INFO : Environment: development
+[12/25/14 21:00:56 -0800 michaels-air (1169)] INFO : No known dispatcher detected.
+[12/25/14 21:00:56 -0800 michaels-air (1169)] INFO : Application: My Application (Development)
+[12/25/14 21:00:56 -0800 michaels-air (1169)] INFO : Installing Net instrumentation
+[12/25/14 21:00:56 -0800 michaels-air (1169)] INFO : Installing deferred Rack instrumentation
+[12/25/14 21:00:56 -0800 michaels-air (1169)] INFO : Installing Rack::Builder middleware instrumentation
+[12/25/14 21:00:56 -0800 michaels-air (1169)] INFO : Finished instrumentation
+[12/25/14 21:00:57 -0800 michaels-air (1169)] INFO : Reporting to: https://rpm.newrelic.com/accounts/853116/applications/5913020
+[12/25/14 21:01:01 -0800 michaels-air (1169)] INFO : Starting Agent shutdown

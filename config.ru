@@ -25,7 +25,7 @@ map '/' do
     }
     body = File.open("#{Dir.pwd}/index.html", File::RDONLY).read
     body.gsub("Blog Posts", first_title)
-    log(first_title)
+    puts "first_title: #{first_title}"
     [200, headers, [body]]
 
   }

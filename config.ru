@@ -24,8 +24,7 @@ map '/' do
       'Cache-Control' => 'public, max-age=86400'
     }
     body = File.open("#{Dir.pwd}/index.html", File::RDONLY).read
-    body.gsub("Blog Posts", first_title)
-    puts "first_title: #{first_title}"
+    body.gsub!("Blog Posts", first_title)
     [200, headers, [body]]
 
   }

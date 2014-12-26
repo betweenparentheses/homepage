@@ -12,6 +12,10 @@ body {
 /* fix bs3 horizontal scrollbar bug */
 .row { margin: 0; padding: 0 }
 
+.panel {
+  border: 1px solid #444;
+}
+
 
 /* use special fonts in certain elements */
 h1,h2,h3,h4,.lead,.btn,.navbar a {

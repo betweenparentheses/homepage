@@ -4,12 +4,12 @@ require 'rubygems'
 require 'bundler'
 Bundler.require(:default)
 
-require './tumblr-stuff'
-
 # prepare for Tumblr client use
-client = Tumblr::Client.new
-tumblr_posts = client.posts("geminstallmichael.tumblr.com", :type => "text", :limit => 5)
+client = Tumblr::Client.new(:consumer_key => ENV['tumblr_consumer_key'])
+posts = client.posts("geminstallmichael.tumblr.com", :type => "text", :limit => 5)
 
+first_title = posts['posts'].first['title']
+first_body = posts['posts'].first['body']
 
 
 #responds to #call method, returns an Array of 
@@ -24,7 +24,7 @@ map '/' do
       'Cache-Control' => 'public, max-age=86400'
     }
     body = File.open("#{Dir.pwd}/index.html", File::RDONLY).read
-    body.gsub("Blog Posts", tumblr_posts.posts.first.title)
+    body.gsub("Blog Posts", first_title)
     [200, headers, [body]]
 
   }

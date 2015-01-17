@@ -18,12 +18,27 @@ $(document).ready(function(){
 
   $.fn.lightbox = function(property){
 
+    var options = $.extend({
+      // height: "400",
+      // width: "600",
+      // top: "30%",
+      // left: "25%",
+
+    }, property);
+
     function add_block_page(){
       var block_page = $('<div class = "block-page"></div>');
       $(block_page).appendTo('body');
     }
 
     function add_styles(){     
+      $('.lightbox').css({ 
+        // 'left':options.left,
+        // 'top':options.top,
+        // 'height': options.height + 'px',
+        // 'width': options.width + 'px',
+      });
+
                         /*Block page overlay*/
       var pageHeight = $(document).height();
       var pageWidth = $(window).width();

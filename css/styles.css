@@ -219,6 +219,9 @@ footer {
   position : fixed;
   display : none;
   padding : none;
+  height: 90%;
+  width: 80%;
+  margin: 0 auto;
   border : 1px solid #fff;
   box-shadow : 0px 2px 7px #292929;
   -moz-box-shadow : 0px 2px 7px #292929;

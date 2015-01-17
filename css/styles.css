@@ -219,8 +219,10 @@ footer {
   position : fixed;
   display : none;
   padding : none;
-  height: 90%;
-  width: 80%;
+  max-height: 85%;
+  width: 40%;
+  top: 10%;
+  left: 30%;
   margin: 0 auto;
   border : 1px solid #fff;
   box-shadow : 0px 2px 7px #292929;
@@ -234,7 +236,7 @@ footer {
 }
 
 .block-page {
-  position:relative;
+  position: fixed;
   top:0;
   left:0;
   background-color:rgba(0,0,0,0.6);

@@ -162,10 +162,6 @@ img.grayscale {
   border: 2px solid transparent;
 }
 
-.featurette-item:hover {
-  border: 2px solid white;
-}
-
 
 
 /*for fancy backgrounds*/
@@ -207,7 +203,7 @@ footer {
   border: 3px solid #ddd;
   margin: 0 auto;
 }
-
+/*
 .featurette-item:hover {
   color: #fff;
 }
@@ -219,7 +215,7 @@ footer {
 .featurette-item:hover .round-thumb {
   border-color: #fff;
 }
-
+*/
 
 .list-spaced li {
   margin: 30px;
@@ -236,7 +232,7 @@ footer {
   display : none;
   padding : none;
   max-height: 85%;
-  width: 40%;
+  minwidth: 40%;
   top: 10%;
   left: 30%;
   margin: 0 auto;
@@ -283,11 +279,6 @@ footer {
   -moz-border-radius : 10px;
   -webkit-border-radius : 10px;
   text-align : center;
-}
-
-/*lightbox-only is only hidden inside a lightboxable div*/
-.lightboxable .lightbox-only {
-  display: none;
 }
 
 

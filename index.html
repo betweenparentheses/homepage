@@ -31,8 +31,6 @@
       <ul class="nav navbar-nav">
         <li><a href="#sec1">About Me</a></li>
         <li><a href="#sec2">Projects</a></li>
-        <!-- Change blog link to a landing here -->
-        <li><a href="#blog-sec">Blog</a></li>
         <li><a href="#contact">Contact Me</a></li>
       </ul>
     </div>
@@ -43,7 +41,7 @@
   <div class="container">
 
     <h1>Michael Alexander</h1>
-    <h2>Web Developer</h2>
+    <h2>Full Stack Web Developer</h2>
       <div>&nbsp;</div>
       <a href="#sec2" class="btn btn-default btn-lg call-to-action">See My Projects</a>
   </div>
@@ -56,11 +54,23 @@
     <div class="row">
       <div class="col-md-12 text-center">
         <h2>Michael Alexander</h2>
-        <h3>Full-Stack Junior Web Developer</h3>
+        <h3>Full Stack Web Developer</h3>
         <!-- IMAGE -->
       </div>
       <div class = "col-md-8 col-md-offset-2">
-        <p>East Bay and San Francisco-based syntax geek with a deep love of Ruby and modern JavaScript. Check out some of my projects below, then <a href="#contact">get in touch</a>.</p>
+        <p>
+          East Bay and San Francisco-based full stack developer with a deep
+          love of Ruby and modern JavaScript. As a former journalist and
+          publishing professional, I love clear communication, working in teams,
+          and using my skills to make critical information accessible to as many people
+          as possible. Currently hacking on
+          <a href="http://www.vikingcodeschool.com">Viking Code School's</a>
+          Learning Management System, mentoring new web developers and
+          iterating curriculum as fast as humanly possible.
+        </p>
+        <p>
+          If you like my projects below, <a href="#contact">feel free to contact me.</a>
+        </p>
       </div>
     </div>
   </div>
@@ -70,103 +80,35 @@
     </div>
   </div>
   <hr>
-  <div class="row">
-      <div class="col-md-6 col-md-offset-3 text-center">
-        <h3>Skills</h3>
-        <br>
-      </div>
-  </div>
-
-  <div class="container well well-lg">
-
-    <div class="row">
-
-        <div class="col-sm-3">
-          <div class="list-group">
-            <p class="list-group-item">
-              <span class="text-success"><i class="icon-film"></i></span> Ruby</p>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="list-group">
-            <p href="#" class="list-group-item">
-              <span class="text-success"><i class="icon-folder-close-alt"></i></span> JavaScript</p>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="list-group">
-            <p href="#" class="list-group-item">
-              <span class="text-success"><i class="icon-credit-card"></i></span>Rails</p>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="list-group">
-            <p href="#" class="list-group-item">
-              <span class="text-success"><i class="icon-reorder"></i></span> SQL</p>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="list-group">
-            <p href="#" class="list-group-item">
-              <span class="text-success"><i class="icon-mobile-phone"></i></span> Rspec</p>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="list-group">
-            <p href="#" class="list-group-item">
-              <span class="text-success"><i class="icon-align-justify"></i></span> jQuery</p>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="list-group">
-            <p href="#" class="list-group-item">
-              <span class="text-success"><i class="icon-list-alt"></i></span> HTML</p>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="list-group">
-            <p href="#" class="list-group-item">
-              <span class="text-success"><i class="icon-check"></i></span> CSS</p>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="list-group">
-            <p href="#" class="list-group-item">
-              <span class="text-success"><i class="icon-table"></i></span> Agile Development</p>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="list-group">
-            <p href="#" class="list-group-item">
-              <span class="text-success"><i class="icon-eye-open"></i></span> Git</p>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="list-group">
-            <p href="#" class="list-group-item">
-              <span class="text-success"><i class="icon-th"></i></span> Sass</p>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="list-group">
-            <p href="#" class="list-group-item">
-              <span class="text-success"><i class="icon-font"></i></span> Bootstrap</p>
-          </div>
-        </div>
-    </div>
-  </div>
-</div>
 
 
 <div class="featurette" id="sec2">
   <div class="container">
     <div class="row">
-      <div class="col-md-12 text-center">
+      <div class="col-sm-12 text-center">
         <h2>My Projects</h2>
       </div>
     </div>
     <div class="row text-center">
-      <div class="col-md-2 col-md-offset-2 col-xs-12 text-center">
+      <div class="col-sm-4 col-xs-12 text-center">
+        <div class="featurette-item lightboxable">
+          <h4>Whispering Gallery</h4>
+          <img src = "images/whisper.png" class = "round-thumb">
+          <p>A time-delayed anonymous chat app art project using Redis and Websockets.</p>
+          <div class = "lightbox-only">
+          <ul class = "feature-list">
+            <li>Expiring keys and pub-sub pattern built on Redis.</li>
+            <li>Push notifications via websockets and EventMachine.</li>
+            <li>Lightweight Sinatra back-end.</li>
+          </ul>
+            <a href="https://whispering-gallery.herokuapp.com" class="btn btn-primary btn-block" target = "_blank">Live Site</a>
+            <a href="https://www.youtube.com/watch?v=ZK1W9Bj3pZk" class="btn btn-info btn-block" target = "_blank">Video Demo</a>
+            <a href="https://github.com/betweenparentheses/whispering_gallery" class = "btn btn-default btn-block" target = "_blank">Github Repo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4 col-xs-12 text-center">
         <div class="featurette-item lightboxable">
           <h4>Danebook</h4>
           <img src = "images/Danebook.jpg" class = "round-thumb">
@@ -184,35 +126,15 @@
           </div>
         </div>
       </div>
-      <div class="col-md-2 col-xs-12 text-center">
+
+      <div class="col-sm-4 col-xs-12 text-center">
         <div class="featurette-item lightboxable">
-          <h4>MTris</h4>
-          <img src = "images/mtris.png" class = "round-thumb">
-          <p>CLI Tetris in Ruby.</p>
-          <div class = "lightbox-only">
-            <a href="https://www.youtube.com/watch?v=3ruY-EpQtHA" class="btn btn-primary btn-block" target = "_blank">Video Demo</a>
-            <a href="https://github.com/betweenparentheses/CLI_Tetris_etc" class = "btn btn-info btn-block" target = "_blank">Github Repo</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2 col-xs-12 text-center">
-        <div class="featurette-item lightboxable">
-          <h4>Where's W—?</h4>
-          <img src = "images/waldo.png" class = "round-thumb">
-          <p>Integrating custom AJAX and Rails to photo-tag a certain traveling fellow.</p>
-          <div class = "lightbox-only">
-            <a href="http://waldofinder.herokuapp.com" class="btn btn-primary btn-block" target = "_blank">Live Demo</a>
-            <a href="https://www.github.com/betweenparentheses/project_wheres_waldo" class="btn btn-info btn-block"target = "_blank">Github Repo</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2 col-xs-12 text-center">
-        <div class="featurette-item lightboxable">
-          <h4>The List</h4>
+          <h4>PrivateFace</h4>
           <img src = "images/question.svg" class = "round-thumb">
-          <p>Google Maps API-enabled adventure planning app for friends or romantic partners.</p>
+          <p>Chrome plugin to make privacy settings more visible on Facebook.</p>
           <div class = "lightbox-only">
-            <a href="#" class="btn btn-warning btn-block" >Coming Soon</a>
+            <a href="https://chrome.google.com/webstore/detail/privateface/ljiafphfipdffnefbnpmlembjpdhcehd" class="btn btn-primary btn-block" >Chrome Web Store</a>
+            <a href="https://github.com/betweenparentheses/privateface" class="btn btn-info btn-block" >Github Repo</a>
           </div>
         </div>
       </div>

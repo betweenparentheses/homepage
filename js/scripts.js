@@ -31,8 +31,8 @@ $(document).ready(function(){
       $(block_page).appendTo('body');
     }
 
-    function add_styles(){     
-      $('.lightbox').css({ 
+    function add_styles(){
+      $('.lightbox').css({
         // 'left':options.left,
         // 'top':options.top,
         // 'height': options.height + 'px',
@@ -62,9 +62,9 @@ $(document).ready(function(){
       // add contents from the clicked item
       var $clicked = $(clicked).children().clone();
       $('.inner-box').append($clicked);
-                   
+
       $('.close-box').click(function(e){
-        $('.block-page').fadeOut().remove();    
+        $('.block-page').fadeOut().remove();
         $(this).parent().fadeOut().remove();
         e.preventDefault();
       });
@@ -74,7 +74,7 @@ $(document).ready(function(){
 
     return this.click(function(e){
       //do stuff here
-   
+
       add_block_page();
       add_popup_box(this);
       add_styles();
